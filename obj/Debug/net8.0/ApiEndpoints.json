@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "session3.Controllers.DepartmentsController",
+    "Method": "Create",
+    "RelativePath": "api/Departments/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dep",
+        "Type": "session3.DTOs.Department.CreateDepartmentDots",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.DepartmentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Departments/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.DepartmentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Departments/Details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.DepartmentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Departments/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.DepartmentsController",
+    "Method": "Update",
+    "RelativePath": "api/Departments/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "dep",
+        "Type": "session3.DTOs.Department.UpdateDepartmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.EmployeesController",
+    "Method": "Create",
+    "RelativePath": "api/Employees/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empDto",
+        "Type": "session3.DTOs.Employees.CreateEmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.EmployeesController",
+    "Method": "Delete",
+    "RelativePath": "api/Employees/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.EmployeesController",
+    "Method": "GetById",
+    "RelativePath": "api/Employees/Details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.EmployeesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Employees/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "session3.Controllers.EmployeesController",
+    "Method": "Update",
+    "RelativePath": "api/Employees/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "emp",
+        "Type": "session3.DTOs.Employees.UpdateEmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
